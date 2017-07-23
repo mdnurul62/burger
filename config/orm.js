@@ -1,7 +1,6 @@
 // Import MySQL connection.
 var connection = require("../config/connection.js");
 
-, "?", "?"].toString() => "?,?,?";
 function printQuestionMarks(num) {
   var arr = [];
 
@@ -21,7 +20,6 @@ function objToSql(ob) {
     var value = ob[key];
     // check to skip hidden properties
     if (ob.hasOwnProperty(key)) {
-      .g. {sleepy: true} => ["sleepy=true"]
       arr.push(key + "=" + value);
     }
   }
