@@ -1,5 +1,4 @@
 
-
 INSERT INTO burgers(burger_name) VALUES("CheeseBurger");
 INSERT INTO burgers(burger_name) VALUES("Double CheeseBurger");
 INSERT INTO burgers(burger_name) VALUES("Hamburger");
